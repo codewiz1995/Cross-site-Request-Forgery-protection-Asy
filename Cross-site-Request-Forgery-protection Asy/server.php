@@ -21,7 +21,7 @@ function loginvalidate($user_CSRF,$user_sessionID, $username, $password)
     {
         echo "<script> alert('Login Sucess') </script>";
         echo "Welcome Admin"."<br/>"; 
-        echo "Visit ".'<a href="https://nisalsworld.blogspot.com/", target="_blank" >'. "https://www.nisalsworld.com" ."</a>"." For Tutorial";
+        echo "Visit ".'<a href="https://sandtechcyber.blogspot.com/", target="_blank" >'. "https://sandtechcyber.blogspot.com/" ."</a>"." For Tutorial";
         apc_delete('CSRF_token');
     }
     else
